@@ -1,4 +1,5 @@
 - Command to generate read me file
+- \$ docker pull zeroxeli/readme-ai:latest
 - \$ docker run --rm \
   -v "$PWD":/workspace \
   -w /workspace \
