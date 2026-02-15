@@ -1,0 +1,11 @@
+- Command to generate read me file
+- \$ docker run --rm \
+  -v "$PWD":/workspace \
+  -w /workspace \
+  zeroxeli/readme-ai:latest \
+  --repository 'https://github.com/tsabunkar/is-captured-image-tejas-backend' \
+  --badge-style flat-square \
+  --badge-color E92063 \
+  --header-style compact \
+  --navigation-style accordion \
+  --emojis rainbow
